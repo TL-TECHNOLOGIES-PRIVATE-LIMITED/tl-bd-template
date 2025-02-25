@@ -1,15 +1,5 @@
 
-
-import thrilladventure from '../img/Thrill-Adventure.png'
-import relaxrecharge from '../img/Relax-Enjoy.png'
-import feastonfavour from '../img/Great-Food.png'
-import journeyinluxury from '../img/Pick Your Vehicle.png'
-// import journeyinluxury from '../img/PickYourVehicle.png'
-import justforyou from '../img/JustforYou.png'
-import travelincomfort from '../img/TravelinComfort.png'
-import thrilladventure2 from '../img/Fun-Adventure.png'
-import accomodation from '../img/Accomodation.png'
-import accomodation2 from '../img/Accomodation-2.jpg'
+import demo from '../img/demo.jpg'
 
 export const learnmore = [
   { id: 1, name: "Service 1" },
@@ -19,43 +9,43 @@ export const learnmore = [
 ];
 export const services = [
   {
-    image: [thrilladventure, thrilladventure2],
+    image:demo,
     heading: "HEADING_PLACEHOLDER",
     Tagline: "TAGLINE_PLACEHOLDER",
     paragraph: "PARAGRAPH_PLACEHOLDER"
   },
   {
-    image: relaxrecharge,
+    image: demo,
     heading: "HEADING_PLACEHOLDER",
     Tagline: "TAGLINE_PLACEHOLDER",
     paragraph: "PARAGRAPH_PLACEHOLDER"
   },
   {
-    image: feastonfavour,
+    image: demo,
     heading: "HEADING_PLACEHOLDER",
     Tagline: "TAGLINE_PLACEHOLDER",
     paragraph: "PARAGRAPH_PLACEHOLDER"
   },
   {
-    image: travelincomfort,
+    image: demo,
     heading: "HEADING_PLACEHOLDER",
     Tagline: "TAGLINE_PLACEHOLDER",
     paragraph: "PARAGRAPH_PLACEHOLDER"
   },
   {
-    image: journeyinluxury,
+    image: demo,
     heading: "HEADING_PLACEHOLDER",
     Tagline: "TAGLINE_PLACEHOLDER",
     paragraph: "PARAGRAPH_PLACEHOLDER"
   },
   {
-    image: justforyou,
+    image: demo,
     heading: "HEADING_PLACEHOLDER",
     Tagline: "TAGLINE_PLACEHOLDER",
     paragraph: "PARAGRAPH_PLACEHOLDER"
   },
   {
-    image: [accomodation, accomodation2],
+    image: demo,
     heading: "HEADING_PLACEHOLDER",
     Tagline: "TAGLINE_PLACEHOLDER",
     paragraph: "PARAGRAPH_PLACEHOLDER"
