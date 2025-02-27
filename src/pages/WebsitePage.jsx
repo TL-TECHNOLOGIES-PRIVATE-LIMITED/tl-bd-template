@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../components/website/Navbar';
 import Footer from '../components/website/Footer';
 import { Mail, Phone, MapPin, Clock, ArrowRight, Star, ChevronDown, ChevronUp } from 'lucide-react';
 
 function WebsitePage() {
-  const [openFaq, setOpenFaq] =([]);
+  
+const [openFaq, setOpenFaq] = useState(null);
 
   const toggleFaq = (index) => {
     setOpenFaq(openFaq === index ? null : index);
