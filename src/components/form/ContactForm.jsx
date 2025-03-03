@@ -174,7 +174,7 @@ const navigate =useNavigate()
       `🔧 *Services :* ${data.preferredServices.join(', ') || 'No services selected'}\n` +
       `📝 *Message :* ${data.message || 'No additional message'}\n\n`;
 
-    const url = `https://api.whatsapp.com/send?phone=918086407979&text=${encodeURIComponent(whatsappMessage)}`;
+    const url = `https://api.whatsapp.com/send?phone=""&text=${encodeURIComponent(whatsappMessage)}`;
 
     setTimeout(() => {
       setShowAlert(false);
@@ -237,8 +237,8 @@ const navigate =useNavigate()
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="gap-1 flex items-center text-xs font-bold text-gray-700 ps-4">
-              <FaAsterisk className='text-red-500 text-sm pe-2' />Destination
-              <TooltipButton content={<p>Enter your desired travel destination.</p>} />
+              <FaAsterisk className='text-red-500 text-sm pe-2' />Form (1)
+              <TooltipButton content={<p>Enter your details.</p>} />
             </label>
             <input
               {...register('destination')}
@@ -249,8 +249,8 @@ const navigate =useNavigate()
           </div>
           <div>
             <label className="gap-1 flex items-center text-xs font-bold text-gray-700 ps-4">
-              <FaAsterisk className='text-red-500 text-sm pe-2' />Number of Travellers
-              <TooltipButton content={<p>Enter the number of people traveling.</p>} />
+              <FaAsterisk className='text-red-500 text-sm pe-2' />Form (2)
+              <TooltipButton content={<p>Enter your details.</p>} />
             </label>
             <input
               type="number"
@@ -265,8 +265,8 @@ const navigate =useNavigate()
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="gap-1 w-full flex items-center text-xs font-bold text-gray-700 ps-4">
-              <FaAsterisk className='text-red-500 text-sm pe-2' />From Date
-              <TooltipButton content={<p>Select the start date of your trip.</p>} />
+              <FaAsterisk className='text-red-500 text-sm pe-2' />From (3)
+              <TooltipButton content={<p>Select the date.</p>} />
             </label>
             <Controller
               name="fromDate"
@@ -289,8 +289,8 @@ const navigate =useNavigate()
 
           <div>
             <label className="gap-1 flex items-center text-xs font-bold text-gray-700 ps-4">
-              <FaAsterisk className='text-red-500 text-sm pe-2' />To Date
-              <TooltipButton content={<p>Select the end date of your trip.</p>} />
+              <FaAsterisk className='text-red-500 text-sm pe-2' />Form (4)
+              <TooltipButton content={<p>Select the date.</p>} />
             </label>
             <Controller
               name="toDate"
@@ -320,8 +320,8 @@ const navigate =useNavigate()
         <div>
           <label className="relative flex items-center justify-between">
             <div className="flex items-center gap-1 text-xs font-bold text-gray-700 ps-4">
-              Other Services
-              <TooltipButton content={<p>Select the type of service you are interested in. You can choose multiple options.</p>} />
+              Form(5)
+              <TooltipButton content={<p>Select the type .</p>} />
             </div>
 
             <div className="flex justify-between items-center gap-1">

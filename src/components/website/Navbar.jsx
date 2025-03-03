@@ -35,7 +35,7 @@ function Navbar() {
               <svg className="h-8 w-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
               </svg>
-              <span className="ml-2 text-xl font-bold text-gray-900">DemoSite</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">[Company Logo]</span>
             </a>
           </div>
           
