@@ -45,26 +45,36 @@ function WebsitePage() {
       <main className="flex-grow bg-gray-100">
         {/* Hero Section with Animation */}
         <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 overflow-hidden">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="md:flex md:items-center md:justify-between">
-              <div className="md:w-1/2 mb-10 md:mb-0 animate-fadeIn">
-                <h1 className="text-5xl font-bold leading-tight mb-6 animate-slideInLeft">
-                  Welcome to <span className="text-white">[Your Company Name]</span>
-                </h1>                <p className="text-xl mb-8 animate-slideInLeft" style={{ animationDelay: '0.2s' }}>Your one-stop solution for beautiful, responsive web design and development.</p>
-                <button className="bg-white text-indigo-700 font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-gray-100 transition duration-300 flex items-center animate-slideInLeft hover:scale-105 transform" style={{ animationDelay: '0.4s' }}>
-                  Get Started <ArrowRight className="ml-2 h-5 w-5" />
-                </button>
-              </div>
-              <div className="md:w-1/2 animate-slideInRight">
-                <img
-                  src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5"
-                  alt="Demo workspace"
-                  className="w-full rounded-lg shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="md:flex md:items-center md:justify-between">
+      <div className="md:w-1/2 mb-10 md:mb-0 animate-fadeIn">
+        <h1 className="text-5xl font-bold leading-tight mb-6 animate-slideInLeft">
+          Welcome to <span className="text-white">[Your Company Name]</span>
+        </h1>
+        <p className="text-xl mb-8 animate-slideInLeft" style={{ animationDelay: '0.2s' }}>
+          Your one-stop solution for beautiful, responsive web design and development.
+        </p>
+        <button
+          className="bg-white text-indigo-700 font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-gray-100 transition duration-300 flex items-center animate-slideInLeft hover:scale-105 transform"
+          style={{ animationDelay: '0.4s' }}
+        >
+          Get Started <ArrowRight className="ml-2 h-5 w-5" />
+        </button>
+      </div>
+      <div className="md:w-1/2 animate-slideInRight">
+        <img
+          src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5"
+          alt="Demo workspace"
+          className="w-full rounded-lg shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+        />
+        <p className="mt-4 text-center text-lg text-gray-300">
+          *Note: This is a static image section, not a carousel.*
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         {/* About Section with Animation */}
         <section id="about" className="py-16">

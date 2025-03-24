@@ -14,7 +14,7 @@ function Footer() {
               <svg className="h-8 w-8 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
               </svg>
-              <span className="ml-2 text-xl font-bold">DemoSite</span>
+              <span className="ml-2 text-xl font-bold">[Company Logo]</span>
             </div>
             <p className="text-gray-400 mb-4">
               Creating beautiful, functional websites and digital experiences since 2020.
@@ -87,7 +87,7 @@ function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              &copy; {currentYear} DemoSite. All rights reserved.
+              &copy; {currentYear}  Companyname. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-6">
