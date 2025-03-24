@@ -427,13 +427,15 @@ const navigate =useNavigate()
               LOCATION_PLACEHOLDER
             </div>
 
-            <div className="inline-flex items-center px-3 py-1 border-2 border-black rounded-full text-xs shadow-sm transition-colors duration-300 cursor-default">
-              LOCATION_PLACEHOLDER
+            <div className="inline-flex items-center px-3 py-1 cursor-pointer border-black text-xs shadow-sm transition-colors duration-300 cursor-default">
+            <a className="text-sm font-semibold text-red-500 hover:underline" href='https://go-bd.com/#hero'>About BeingDigital</a>
             </div>
-
           </div>
+          {/* <div className="mt-1 px-4 text-center h-2">
+    <a className="text-sm font-semibold text-red-500">About BeingDigitalDemo</a>
+    
+  </div> */}
         </div>
-
 
         <div className="flex justify-evenly items-center w-full flex-wrap text-black  ">
           <span>follow us</span>

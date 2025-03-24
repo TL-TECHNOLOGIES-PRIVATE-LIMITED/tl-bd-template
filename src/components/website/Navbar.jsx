@@ -44,7 +44,7 @@ function Navbar() {
             <a href="#" className="text-gray-900 hover:text-indigo-600 px-3 py-2 font-medium transition-colors duration-300">Home</a>
             <a href="#about" className="text-gray-900 hover:text-indigo-600 px-3 py-2 font-medium transition-colors duration-300">About</a>
             <a href="#services" className="text-gray-900 hover:text-indigo-600 px-3 py-2 font-medium transition-colors duration-300">Services</a>
-            <a href="#faq" className="text-gray-900 hover:text-indigo-600 px-3 py-2 font-medium transition-colors duration-300">FAQ</a>
+            <a href="#faq" className="text-gray-900 hover:text-indigo-600 px-3 py-2 font-medium transition-colors duration-300">FAQs</a>
             <a href="#testimonials" className="text-gray-900 hover:text-indigo-600 px-3 py-2 font-medium transition-colors duration-300">Testimonials</a>
             <button className="bg-indigo-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 hover:shadow-md">
               Get Started
